@@ -59,13 +59,9 @@ This directory contains a C++ command-line tool for testing and controlling RunC
 - The tool defaults to "blind mode" (commands are sent without waiting for a response).
 - For text writing, you will be prompted for X/Y coordinates and the text string.
 - OSD must be open to write text.
-- This tool is for **testing and development**. Use with caution on production devices.
+- This tool is for **testing and development**.
 
 ## File Overview
 
 - `New_RunCam_interface.cpp` — Main interface and FSM logic
 - `New_RunCam_registry.h` — Protocol constants and packet templates
-
-## Disclaimer
-
-This tool is provided for development and testing only. Use at your own risk. Ensure you have backups and do not use on critical hardware without proper validation.

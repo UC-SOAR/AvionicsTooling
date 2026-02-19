@@ -7,7 +7,7 @@
 // --- PROTOCOL CONSTANTS ---
 const uint8_t RC_HEADER = 0xCC;
 
-// --- 1. COMMAND IDs (The "Category") ---
+// --- 1. COMMAND IDs ---
 enum CommandID : uint8_t {
     CMD_GET_INFO        = 0x00,
     CMD_CAM_CONTROL     = 0x01,
