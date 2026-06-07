@@ -82,8 +82,8 @@ def main():
                        process(i.strip())
              
         except:
-            print(f"Error opening serial port: {e}")
-            print("You probably have termite open...... or got the com number wrong..... make sure to enter \"COM[X]\"")
+            print(f"Error opening serial port/file: {e}")
+            print("You probably have termite open...... or got the com number wrong..... or got the file name wrong... make sure to enter \"COM[X]\". file name should be relative to where you are running this script")
             sys.exit(1)
             
     except KeyboardInterrupt:
